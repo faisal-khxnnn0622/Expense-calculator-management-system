@@ -1,3 +1,5 @@
+# Restaurant bill
+
 menu = ["pizza" , "burger" , "fries" , "nuggets" , "chicken65" , "sandwich"]
 pricess = [260 , 200 , 120 , 140 , 130 , 110]
 
