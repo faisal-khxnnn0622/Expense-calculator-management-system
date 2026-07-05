@@ -35,3 +35,23 @@ print("Your total bill is ;" ,final+gst )
 
 
 
+
+# Movie ticket booking
+
+print("-------------------------------Welcome to the website-------------------------------")
+Movies = ["obsession" , "backrooms" , "saiyaara" , "war2" , "shiddat" , "welcome to jungle" , "housefull 4" , "dhurander" , "dhurander the revenge" , "shershah" , "deewaniyath"]
+normal = [250 , 250 , 250 , 250 , 250 , 250 , 250 , 250 , 250 , 250 , 250 ]
+
+movie = input("Which movie do you want to watch? - ")
+seats = input("Number of seats? - ")
+
+select = normal[Movies.index(movie)]
+totall = select * int(seats)
+gst = totall *18/100
+final = totall + gst
+print("Your sub-total is ; " , totall)
+print("GST(18%)-" , gst)
+print("Your total is ;" , final)
+print("-------------------------------Thank you visit again-------------------------------")
+
+
