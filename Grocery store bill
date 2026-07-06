@@ -1,0 +1,17 @@
+print("-----------------------Welcome to our grocery store------------")
+grocery = ["onion" , "tomato" , "butter" , "cheese" , "paneer" , "milk" , "curd" , "potato" , "carror" , "cucumber"]
+prices = [30 , 35 , 50 , 70 , 110 , 55 , 52 , 40 , 50 , 30]
+
+selection = input("What do you want in dairy? ")
+selection1 = input("What do you want in vegetables? ")
+price = prices[grocery.index(selection)]
+price1 = prices[grocery.index(selection1)]
+print(selection , "=" , price )
+print(selection1 , "=" , price1)
+total = price+price1
+print("Your subtotal is" , total)
+gst = total*5/100
+print("GST(18%)" , gst)
+final = gst + total
+print("Your total bill is -" ,final )
+print("-------------------------Thank you visit Again--------------------------")
