@@ -2,4 +2,4 @@
 
 ### In this repo ill add mini projects
 #### I have added three small projects till now
-#### 1.Restaurant bill 2.Movie Ticket booking 3.Grocery store bill
+#### 1.Restaurant bill<br>2.Movie Ticket booking<br>3.Grocery store bill
