@@ -1,0 +1,34 @@
+#Ask the user to enter:
+#Name
+#Age
+#Height (in meters)
+#Weight (in kilograms)
+#Calculate BMI using:
+#BMI = Weight / (Height × Height)
+
+#Display:
+#User Details
+#BMI Value
+#Constraints
+#Use variables and arithmetic operators only
+
+
+name = input("Enter your name - ")
+age = int(input("enter your age - "))
+height = float(input("Enter your height  - "))
+height_info = input("Height is in which value?")
+if (height_info=="feet"):
+    print((f"{height*0.3048:.2f} "))
+elif (height_info=="inches"):
+    print(f"{height*0.0254:.2f} mtrs")
+    
+else:
+    print("Enter a correct value")
+weight = int(input("Enter your weight - "))
+bmi = weight / (height*height)
+
+print("Name - " , name)
+print("Age - " , age)
+print("Height - " , height)
+print("Weight - " , weight)
+print("Body mass index(BMI)" , bmi)
