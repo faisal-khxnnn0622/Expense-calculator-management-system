@@ -1,6 +1,3 @@
-# Mini--Project
-
-### In this repo ill add mini projects
-#### I have added three small projects till now
-#### 1.Restaurant bill<br>2.Movie Ticket booking<br>3.Grocery store bill<br>
-#### 4.Simple rechrage plan
+### In this repository i added my very first project which is 
+<br>
+##THE EXPENSE CALCULATOR MANAGEMENT SYSTEM
